@@ -1,0 +1,19 @@
+class ExampleClass:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        # Print a greeting message
+        print("Hello, {}!".format(self.name))
+
+
+def main():
+    # Instantiate ExampleClass
+    example_object = ExampleClass("World")
+    
+    # Greet the world
+    example_object.greet()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,4 @@
-.custom-filters {
+.filters {
     background-color: white;
     height: 70px;
     width: 100%;
@@ -8,7 +8,7 @@
     display: inline-block;
 }
 
-.custom-locations {
+.locations {
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -16,7 +16,7 @@
     margin-left: 40px;
 }
 
-.custom-amenities {
+.amenities {
     height: 100%;
     width: 25%;
     display: inline-block;
@@ -59,7 +59,7 @@ button:hover {
     opacity: 0.9;
 }
 
-.custom-popover {
+.popover {
     display: none;
     width: 100%;
     border: 1px solid #DDDDDD;
@@ -69,10 +69,10 @@ button:hover {
     position: relative;
 }
 
-div.custom-locations:hover ul.custom-popover {
+div.locations:hover ul.popover {
     display: block;
 }
 
-div.custom-amenities:hover ul.custom-popover {
+div.amenities:hover ul.popover {
     display: block;
 }
